@@ -44,7 +44,7 @@ class LiveExperts extends Component {
     return (
       <div className="live-experts-container pos-relative">
         <div className="live-experts-title mg-b-1">
-          <h3>LIVE with our Experts</h3>
+          <h3>LIVE with Expert @sarahpribis</h3>
         </div>
         <div className="live-experts-list grid grid--responsive grid--3">
           {this.generateExperts()}

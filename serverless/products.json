@@ -9,8 +9,8 @@
                     "discountedPrice": {"N": "99"},
                     "rankSeq": {"N": "10"},
                     "longDescription": {"S": "By combining potent natural ingredients, ancient rituals, and modern science, ACME creates products that perform with experiences that transform. Discovery drives innovation. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vulputate volutpat rhoncus arcu porttitor in."},
-                    "imageUrl": {"S": "https://<my-bucket-name>.s3-<my-region>.amazonaws.com/products/1000567890.jpg"},
-                    "imageLargeUrl": {"S": "https://<my-bucket-name>.s3-<my-region>.amazonaws.com/products/1000567890-lg.jpg"}
+                    "imageUrl": {"S": "https://ecom-test-sandbx.s3-us-east-1.amazonaws.com/products/1000567890.jpg"},
+                    "imageLargeUrl": {"S": "https://ecom-test-sandbx.s3-us-east-1.amazonaws.com/products/1000567890-lg.jpg"}
                 }
             }
         },
@@ -23,8 +23,8 @@
                     "discountedPrice": {"N": "27"},
                     "rankSeq": {"N": "20"},
                     "longDescription": {"S": "By combining potent natural ingredients, ancient rituals, and modern science, ACME creates products that perform with experiences that transform. Discovery drives innovation. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vulputate volutpat rhoncus arcu porttitor in."},
-                    "imageUrl": {"S": "https://<my-bucket-name>.s3-<my-region>.amazonaws.com/products/1000567891.jpg"},
-                    "imageLargeUrl": {"S": "https://<my-bucket-name>.s3-<my-region>.amazonaws.com/products/1000567891-lg.jpg"}
+                    "imageUrl": {"S": "https://ecom-test-sandbx.s3-us-east-1.amazonaws.com/products/1000567891.jpg"},
+                    "imageLargeUrl": {"S": "https://ecom-test-sandbx.s3-us-east-1.amazonaws.com/products/1000567891-lg.jpg"}
                 }
             }
         },
@@ -37,8 +37,8 @@
                     "discountedPrice": {"N": "28"},
                     "rankSeq": {"N": "30"},
                     "longDescription": {"S": "By combining potent natural ingredients, ancient rituals, and modern science, ACME creates products that perform with experiences that transform. Discovery drives innovation. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vulputate volutpat rhoncus arcu porttitor in."},
-                    "imageUrl": {"S": "https://<my-bucket-name>.s3-<my-region>.amazonaws.com/products/1000567892.jpg"},
-                    "imageLargeUrl": {"S": "https://<my-bucket-name>.s3-<my-region>.amazonaws.com/products/1000567892-lg.jpg"}
+                    "imageUrl": {"S": "https://ecom-test-sandbx.s3-us-east-1.amazonaws.com/products/1000567892.jpg"},
+                    "imageLargeUrl": {"S": "https://ecom-test-sandbx.s3-us-east-1.amazonaws.com/products/1000567892-lg.jpg"}
                 }
             }
         },
@@ -51,8 +51,8 @@
                     "discountedPrice": {"N": "15"},
                     "rankSeq": {"N": "40"},
                     "longDescription": {"S": "By combining potent natural ingredients, ancient rituals, and modern science, ACME creates products that perform with experiences that transform. Discovery drives innovation. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vulputate volutpat rhoncus arcu porttitor in."},
-                    "imageUrl": {"S": "https://<my-bucket-name>.s3-<my-region>.amazonaws.com/products/1000567893.jpg"},
-                    "imageLargeUrl": {"S": "https://<my-bucket-name>.s3-<my-region>.amazonaws.com/products/1000567893-lg.jpg"}
+                    "imageUrl": {"S": "https://ecom-test-sandbx.s3-us-east-1.amazonaws.com/products/1000567893.jpg"},
+                    "imageLargeUrl": {"S": "https://ecom-test-sandbx.s3-us-east-1.amazonaws.com/products/1000567893-lg.jpg"}
                 }
             }
         },
@@ -65,8 +65,8 @@
                     "discountedPrice": {"N": "95"},
                     "rankSeq": {"N": "50"},
                     "longDescription": {"S": "By combining potent natural ingredients, ancient rituals, and modern science, ACME creates products that perform with experiences that transform. Discovery drives innovation. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vulputate volutpat rhoncus arcu porttitor in."},
-                    "imageUrl": {"S": "https://<my-bucket-name>.s3-<my-region>.amazonaws.com/products/1000567894.jpg"},
-                    "imageLargeUrl": {"S": "https://<my-bucket-name>.s3-<my-region>.amazonaws.com/products/1000567894-lg.jpg"}
+                    "imageUrl": {"S": "https://ecom-test-sandbx.s3-us-east-1.amazonaws.com/products/1000567894.jpg"},
+                    "imageLargeUrl": {"S": "https://ecom-test-sandbx.s3-us-east-1.amazonaws.com/products/1000567894-lg.jpg"}
                 }
             }
         },
@@ -79,8 +79,8 @@
                     "discountedPrice": {"N": "45"},
                     "rankSeq": {"N": "60"},
                     "longDescription": {"S": "By combining potent natural ingredients, ancient rituals, and modern science, ACME creates products that perform with experiences that transform. Discovery drives innovation. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vulputate volutpat rhoncus arcu porttitor in."},
-                    "imageUrl": {"S": "https://<my-bucket-name>.s3-<my-region>.amazonaws.com/products/1000567895.jpg"},
-                    "imageLargeUrl": {"S": "https://<my-bucket-name>.s3-<my-region>.amazonaws.com/products/1000567895-lg.jpg"}
+                    "imageUrl": {"S": "https://ecom-test-sandbx.s3-us-east-1.amazonaws.com/products/1000567895.jpg"},
+                    "imageLargeUrl": {"S": "https://ecom-test-sandbx.s3-us-east-1.amazonaws.com/products/1000567895-lg.jpg"}
                 }
             }
         }

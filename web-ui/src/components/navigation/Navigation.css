@@ -2,7 +2,7 @@
 /* SPDX-License-Identifier: MIT-0 */
 
 :root {
-  --color-navbar-search: rgba(0,0,0,0.05);
+  --color-navbar-search: rgba(27, 27, 27, 0.575);
   --nav-search-visibility: visible;
 }
 
@@ -28,7 +28,7 @@
 .nav-search__input {
   height: 3.6rem;
   text-align: center;
-  border: none;
+  border:;
   background: var(--color-navbar-search);
   visibility: var(--nav-search-visibility);
 }

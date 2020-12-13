@@ -10,7 +10,7 @@
   --color--primary:  var(--color-bg-inverted);
   --color--secondary: var(--color-bg-inverted);
 
-  --color-bg-modal-overlay: #E3E3EAE6;
+  --color-bg-modal-overlay: #202022e6;
 
   /* Responsive */
   --video-grid-template: 1fr 34rem;

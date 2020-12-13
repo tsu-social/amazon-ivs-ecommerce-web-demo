@@ -13,9 +13,9 @@
   --font-mono: Consolas, monaco, 'Ubuntu Mono', 'Liberation Mono', 'Courier New', Courier, monospace;
 
   /* Color tokens */
-  --color--primary:  #2B44FF;
+  --color--primary:  #b9bccc;
   --color--secondary: #2026A2;
-  --color--tertiary: #8D9CA7;
+  --color--tertiary: #e9edf0;
   --color--positive: #0FD70B;
   --color--destructive: #FD2222;
 
@@ -29,19 +29,19 @@
   --btn-floating-icon-size: 40px;
 
   /* Light theme color assignment */
-  --color-text-base: #000;
-  --color-text-alt: #4B5358;
+  --color-text-base: #C7F465;
+  --color-text-alt: #e7eaec;
   --color-text-inverted: #FFF;
-  --color-text-hint: #8D9CA7;
+  --color-text-hint: #cfd0d1;
   --color-text-primary:  var(--color--primary);
   --color-text-secondary: var(--color--secondary);
   --color-text-tertiary: var(--color--tertiary);
   --color-text-positive: var(--color--positive);
   --color-text-destructive: var(--color--destructive);
-  --color-bg-body: #FFF;
-  --color-bg-base: #FFF;
-  --color-bg-alt: #F1F2F3;
-  --color-bg-alt-2: #E7ECF0;
+  --color-bg-body: rgb(27, 27, 31);
+  --color-bg-base: #1e2020;
+  --color-bg-alt: #474849;
+  --color-bg-alt-2: #353636;
   --color-bg-inverted: #000;
   --color-bg-primary:  var(--color--primary);
   --color-bg-secondary: var(--color--secondary);

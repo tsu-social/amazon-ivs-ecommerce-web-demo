@@ -7,9 +7,9 @@ import React,  {useState } from 'react';
 import './Navigation.css';
 
 // Assets
-import logo from '../../assets/ACME-logo.svg';
+import logo from '../../assets/TSU-LOGO.jpg';
 import user_logo from '../../assets/profile-pic@2x.png';
-import shopping_cart from '../../assets/shopping-icon.svg';
+import shopping_cart from '../../assets/shopping-icon.png';
 
 const Navigation = () => {
   const [search, updateSearch] = useState('');
