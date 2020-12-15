@@ -6,7 +6,7 @@ export const USE_MOCK_DATA = true;
 
 // API endpoint for retrieving the products list 
 //https://a3dzlwrnma.execute-api.us-east-1.amazonaws.com/Prod/ 
-export const GET_PRODUCTS_API = "";
+export const GET_PRODUCTS_API = "https://a3dzlwrnma.execute-api.us-east-1.amazonaws.com/Prod/ ";
 
 // Default video stream to play inside the video player
 // Replace this with your own Amazon IVS Playback URL
