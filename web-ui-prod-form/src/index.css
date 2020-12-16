@@ -40,7 +40,7 @@
   --color-text-destructive: var(--color--destructive);
   --color-bg-body: rgb(27, 27, 31);
   --color-bg-base: #1e2020;
-  --color-bg-alt: #474849;
+  --color-bg-alt: 28 28 30;
   --color-bg-alt-2: #353636;
   --color-bg-inverted: #000;
   --color-bg-primary:  var(--color--primary);
@@ -55,7 +55,7 @@
   --color-bg-chat-bubble: var(--color-bg-alt);
   --color-bg-player: var(--color-bg-alt);
   --color-bg-placeholder: var(--color-bg-alt);
-  --color-bg-button: var(--color-bg-alt);
+  --color-bg-button: #c7f465;
   --color-bg-button-active: var();
   --color-bg-button-focus: var();
   --color-bg-button-hover: var();
@@ -616,7 +616,7 @@ textarea {
   border: 2px solid transparent;
   outline: none;
   appearance: none;
-  resize: none;
+  resize: auto;
   -webkit-appearance: none;
   padding: 1rem;
   background: var(--color-bg-input);
@@ -638,7 +638,7 @@ input:focus,
 textarea:focus,
 .btn:focus,
 .btn:active {
-  border: 2px solid var(--color--primary);
+  border: 2px solid #C7F465;
 }
 
 select {

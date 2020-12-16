@@ -1,0 +1,78 @@
+ <div class="bx--row">
+        <div class="content" id="ContentSection">
+            <div class="content-header">
+                <h3 class="subTitle">
+                    Activate CTAs </h3>
+            </div>
+            <div class="content-body">
+                <div class="content-box noborder">
+                    <p class="feature-info">
+                        Show CTAs in your player when your channel is live, and direct your viewers to subscriptions,
+                        product promotions or any other URL. </p>
+                </div>
+                <div id="LiveCtaActivate" class="content-box">
+                    <div class="controls group">
+                        <div class="pull-left">
+                            <strong>
+                                Activate CTAs </strong>
+                        </div>
+                    </div>
+                    <table class="liveCta-activate-list table-list js-activate-list" summary="Activate CTAs">
+                        <colgroup>
+                            <col style="width: 30%">
+                            <col style="width: 50%">
+                            <col style="width: 15%">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Channel</th>
+                                <th>CTA Displayed in live player</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="liveCta-activate-list__item  js-activate-list-row" data-channelid="23998106"
+                                data-selected="">
+                                <td class="liveCta-activate-list__channel">
+                                    <strong title="First Social Channel">
+                                        First Social Channel </strong>
+                                </td>
+                                <td>
+                                    <div class="liveCta-activate-list__preview js-activate-list-preview">
+                                    </div>
+                                    <div
+                                        class="liveCta-activate-list-select select-menu control-select js-activate-select">
+                                        <ul>
+                                            <li class="liveCta-activate-list-select__item js-activate-select-item"
+                                                data-ctaid="7703">
+
+                                                <div class="liveCta-preview  flag liveCta-preview--small  ">
+                                                    <div class="liveCta-preview__img flag__img">
+                                                        <img src="https://ustvstaticcdn1-a.akamaihd.net/i/live_cta_image/7703,500x500,b:2.jpg"
+                                                            alt="">
+                                                    </div>
+                                                    <div class="liveCta-preview__body flag__body">
+                                                        <h4 class="liveCta-preview__headline">TSU Live</h4>
+                                                        <p class="liveCta-preview__description">Join us for TSU Live!
+                                                        </p>
+                                                        <p class="liveCta-preview__link"><a
+                                                                href="https://video.ibm.com/channel/Pfg8ZERubPb"
+                                                                target="_blank">Watch Now</a></p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <span class="select js-activate-select-selected">
+                                        Select a CTA, then click activate </span>
+                                    </div>
+                                </td>
+                                <td>
+                                 <button class="button secondary js-liveCta-action-switch" data-action="activate"
+                                disabled="">Activate</button> </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>

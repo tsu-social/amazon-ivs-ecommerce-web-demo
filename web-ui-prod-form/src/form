@@ -1,0 +1,114 @@
+
+<main id="main-content" class="bx--content">
+    <div class="bx--row">
+        <div class="content" id="ContentSection">
+            <div class="content-header">
+                <h3 class="subTitle">
+                    Add new CTA </h3>
+            </div>
+            <div class="content-body">
+                <div>
+                    <a class="backButton js-back-button" href="/dashboard/live-cta/manage">
+                        <span class="glyphicon icon-back"></span><span>Back</span>
+                    </a>
+                </div>
+                <div class="content-box">
+                    <form class="liveCta-edit js-liveCta-edit page-error" action="/dashboard/live-cta/0/save"
+                        method="POST" enctype="multipart/form-data">
+                        <input type="hidden" name="_csrf_token"
+                            value="d540a2549b25abd681620b6233e25cda7a7b8fc1e94eda2d1cbc6d16347945a5"
+                            view-data-key="_csrf_token">
+                        <fieldset>
+                            <div class="section-row">
+                                <div class="control-group">
+                                    <label class="inputLabel" for="liveCtaEditTitle">Title</label>
+                                    <input type="text" name="title" class="required" id="liveCtaEditTitle"
+                                        maxlength="30">
+                                </div>
+                                <div class="control-group">
+                                    <label class="inputLabel" for="liveCtaEditText">Text</label>
+                                    <textarea id="liveCtaEditText" name="description" data-validator-group="description"
+                                        maxlength="70" 0="" class="required flexible input-textarea"></textarea>
+                                </div>
+                                <div class="control-group">
+                                    <label for="UploadCtaImage" class="inputLabel">
+                                        Image </label>
+                                    <div class="imageUpload liveCta-edit__img-upload">
+                                        <div class="flag flag--top">
+                                            <div class="flag__image">
+                                                <img class="js-live-cta-preview"
+                                                    src="https://ustvstaticcdn1-a.akamaihd.net/images/defaults/channel_96x96:4.png"
+                                                    alt="">
+                                            </div>
+                                            <div class="flag__body">
+                                                <div class="upload-btn">
+                                                    <label for="UploadCtaImage" class="button secondary">
+                                                        Upload new image </label>
+                                                    <input id="UploadCtaImage" type="file" name="image"
+                                                        class="upload-btn__input required"
+                                                        accept="image/jpeg, image/png, jpg, jpeg, png">
+                                                </div>
+                                                <p class="imageUpload__hint">
+                                                    Image size must be at least 200 x 200 pixels with 1:1 ratio. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="control-group">
+                                    <label class="inputLabel">
+                                        Button text </label>
+                                    <div class="liveCta-input-group">
+                                        <div class="liveCta-input-group__input">
+                                            <input type="radio" name="buttonTextType"
+                                                class="required js-liveCta-edit-button-text-type" id="ButtonTextPreset"
+                                                value="preset" data-validator-group="validation-group-button-text"
+                                                checked>
+                                            <label for="ButtonTextPreset">Select a preset:</label>
+                                        </div>
+                                        <div class="liveCta-input-group__input">
+                                            <div class="control-select">
+                                                <select name="buttonTextPresetValue"
+                                                    class="js-button-text-preset-select">
+                                                    <option value="Buy Now">Buy Now</option>
+                                                    <option value="Donate">Donate</option>
+                                                    <option value="Learn More">Learn More</option>
+                                                    <option value="Subscribe">Subscribe</option>
+                                                    <option value="Watch Now">Watch Now</option>
+                                                </select>
+                                                <span class="select"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="liveCta-input-group">
+                                        <div class="liveCta-input-group__input">
+                                            <input type="radio" name="buttonTextType"
+                                                class="required js-liveCta-edit-button-text-type" id="ButtonTextCustom"
+                                                value="custom" data-validator-group="validation-group-button-text">
+                                            <label for="ButtonTextCustom">Enter custom text:</label>
+                                        </div>
+                                        <div class="liveCta-input-group__input">
+                                            <input type="text" name="buttonTextCustomValue"
+                                                class="js-button-text-custom-input" maxlength="15">
+                                            <p class="inputInfo">Max. 15 characters</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="inputLabel" for="ButtonUrl">Button URL</label>
+                                    <input type="text" name="buttonUrl" class="required flexible" id="ButtonUrl">
+                                </div>
+                            </div>
+                        </fieldset>
+                        <fieldset class="action last ">
+                            <button type="submit" class="button ">
+                                Save </button>
+                            <a href="/dashboard/live-cta/manage">
+                                Cancel </a>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

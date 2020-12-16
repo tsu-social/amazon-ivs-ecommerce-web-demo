@@ -60,8 +60,13 @@ const Modal = ({
           <div className="modal-product-description mg-b-25">{longDescription}</div>
           <div className="modal-product-actions">
             <button className="modal-product-buy-now btn btn--primary full-width">
-              <span className="modal-product-buy-now__price mg-r-05">{`$${buyNowPrice}`}</span>
-              <span>Buy Now</span>
+              <span>Edit</span>
+            </button>
+          </div>
+          <p></p>
+          <div className="modal-product-actions">
+            <button className="modal-product-buy-now btn btn--primary full-width">
+              <span>Delete</span>
             </button>
           </div>
         </div>

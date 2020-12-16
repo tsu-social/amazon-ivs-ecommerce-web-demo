@@ -7,7 +7,7 @@ import React, { Component } from 'react';
 import './LiveExperts.css';
 
 // Mock data
-import { mockLiveExperts } from '../../__test__/mocks/experts-mocks';
+import { mockLiveExperts } from '../../__test__/mocks/products2-mocks';
 
 class LiveExperts extends Component {
   constructor(props) {

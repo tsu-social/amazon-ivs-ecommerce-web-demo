@@ -6,9 +6,9 @@ import * as config from '../../config';
 
 // Components
 import Navigation from '../navigation/Navigation';
-import VideoPlayer from '../videoPlayer/VideoPlayer';
+// import VideoPlayer from '../videoPlayer/VideoPlayer';
 import ProductList from '../productList/ProductList';
-import LiveExperts from '../liveExperts/LiveExperts';
+import SubmitProduct from '../submitProduct/SubmitProduct';
 
 // Styles
 import './WebECommerce.css';
@@ -41,15 +41,15 @@ class WebECommerce extends Component {
     return (
       <div className={`web-ecommerce-container full-width full-height ${details}`} onClick={this.handleECommerceOnClick}>
         <Navigation />
-        <div className="web-ecommerce-content pd-2 grid fl fl-j-center">
+        <div className="web-ecommerce-content pd-1 grid fl fl-j-center">
           <div className="video-product-content">
-            <VideoPlayer setMetadataId={this.setCurrentProductId} videoStream={config.DEFAULT_VIDEO_STREAM} />
+            {/* <VideoPlayer setMetadataId={this.setCurrentProductId} videoStream={config.DEFAULT_VIDEO_STREAM} /> */}
+            <SubmitProduct />
             <ProductList
               currentProductId={this.state.currentProductId}
               setModal={this.setModal}
               showModal={this.state.showModal}
             />
-            <LiveExperts />
           </div>
         </div>
       </div>
