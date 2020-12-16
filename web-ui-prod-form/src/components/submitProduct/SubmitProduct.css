@@ -1,26 +1,38 @@
 /* Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. */
 /* SPDX-License-Identifier: MIT-0 */
-/* Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. */
-/* SPDX-License-Identifier: MIT-0 */
 
 :root {
-  --product-form-flex-direction: column;
-  --product-form-overflow-x: hidden;
+  --product-list-flex-direction: column;
+  --product-list-overflow-x: hidden;
   --product-width: 100%;
   --product-bottom-gap: 0.5rem;
   --product-right-gap: 0;
   --product-container-height: 70rem;
 }
 
-.details .product-forms-container > .product {
+.details .products-container > .product {
   opacity: var(--details-opacity);
   cursor: default;
 }
 
-.product-forms-container {
+.name {
+  display: flex;
+  justify-content: space-between;
+  max-width: 400px;
+  margin: 0 auto;
+  background: #A0C5E8;
+  padding: 10px 0;
+}
+
+.input {  display: flex; padding: 4px 2px; width: 300px; height: 40px; border: 1px solid #80940d; padding: 7px }
+
+.input-long { width: 500px; height: 125px; border: 1px solid #80940d; padding: 5px; word-wrap: break-word;
+  word-break: break-all; text-size-adjust: 200px;}
+
+.products-container {
   box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.05);
   overflow-x: var(--product-list-overflow-x);
-  height: var(--product-container-height);
+  height: 150rem;
 }
 
 .product-list {
@@ -35,7 +47,7 @@
 }
 
 .product:hover {
-  background: var(--color-bg-alt);
+  background: var(--color-bg-alt-2);
   cursor: pointer;
 }
 
@@ -58,8 +70,8 @@
   box-shadow: 0 0 0 2px var(--color-text-base);
 }
 
-.product-forms-price,
-.product-forms-discounted-price {
+.products-price,
+.products-discounted-price {
   font-weight: bold;
 }
 
@@ -106,21 +118,5 @@
 @media (min-width: 1024px) and (max-width: 1280px) { /* Large Screens */
   :root {
     --product-container-height: 36rem;
-  }
-}
-
-.grid--responsive.grid--2 {
-  grid-template-columns: var(--grid-2-columns);
-}
-
-.product-form-container {
-  background-color: var(--color-bg-alt);
-  box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.05);
-  overflow-x: var(--product-list-overflow-x);
-  height: 70rem;
-}
-@media (min-width: 480px) and (max-width: 767px) { /* Small Screens */
-  :root {
-    --grid-3-columns: 1fr 1fr;
   }
 }

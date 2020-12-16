@@ -3,6 +3,8 @@
 
 import React, { Component } from 'react';
 import shopping_cart from '../../assets/shopping-icon.png';
+import sample from '../../assets/sample.png'
+import sampleLg from '../../assets/sample-lg.png'
 //TODO import addProduct call in config file for endpoint
 import * as config from '../../config';
 
@@ -36,76 +38,92 @@ class SubmitProduct extends Component {
     e.stopPropagation();
   }
 
-  // generateForm = () => {
-  //   const { products } = this.state;
-  //   return (
-  //     //TODO ADD EDIT/DELETE FORMS TO PRODUCTS FORMS
-  //     products.map(product => (
-  //       <div className="product-forms" key={product.id} onClick={this.handleProductSubmit}>
-  //         <div className="aspect-169 pos-relative">
-  //         </div>
-  //       </div>
-  //     ))
-  //   )
-  // }
-
   render() {
     return (
-      <div class="product-form-container product-list-flex-direction product product-list fl-shrink-0 pd-05 fl fl-nowrap br-all-sm">
-        
-            <form onSubmit={this.handleSubmit}>
-              <label>Product Name</label>
-                <input className="form-control mb-3"
-                name="name"
-                placeholder="Eyeshadow Palette - Set of 3 Palettes"
-                value={this.state.name}
-                onChange={this.handleChange}>
-              </input>
-
-              <label>Price</label>
-              <input 
-                type="text"
-                name="price"
-                placeholder="125"
-                value={this.state.price}
-                onChange={this.handleChange}>
-              </input>
-
-              <label>Discounted Price</label>
-              <input className="form-control mb-1"
-                type="text"
-                name="discountedPrice"
-                placeholder="99"
-                value={this.state.discountedPrice}
-                onChange={this.handleChange}>
-              </input>
-
-              <label>Rank Sequence</label>
-              <input className="form-control mb-1"
-                type="text"
-                name="rankSeq"
-                placeholder="10"
-                value={this.state.rankSeq}
-                onChange={this.handleChange}>
-              </input>
-
-              <label>Long Description</label>
-              <input 
-                type="textBox"
-                name="longDescription"
-                placeholder="By combining potent natural ingredients, ancient rituals, and modern science, ACME creates products that perform with experiences that transform. Discovery drives innovation. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vulputate volutpat rhoncus arcu porttitor in."
-                value={this.state.longDescription}
-                onChange={this.handleChange}>
-              </input>
-   
-              <label>Upload Small Image </label>
-              <input type="file" name="imageUrl" class="upload-btn__input required" accept="image/jpeg, image/png, jpg, jpeg, png"></input>
-              <label>Upload Large Image </label>
-              <input type="file" name="imageLargeUrl" class="upload-btn__input required" accept="image/jpeg, image/png, jpg, jpeg, png"></input>
-            
-              <input className="btn btn-success" type="submit" value="Add" ></input>
-            </form>
+      <div class="products-container bg-alt br-all pd-1">
+        <div class="product-list fl fl-wrap bg-alt br-all">
+          <form onSubmit={this.handleSubmit}>
+            <div class="product fl-shrink-0 pd-05 fl fl-nowrap br-all-sm">
+              <div class="product-name pd-r-1 mg-l-1 fl fl-column fl-wrap fl-shrink-1">
+                <div class="line-clamp-2">Product Name
+                <input className="input"
+                  name="name"
+                  placeholder="Eyeshadow Palette - Set of 3 Palettes"
+                  value={this.state.name}
+                  onChange={this.handleChange}>
+                </input>
+                </div>
+              </div>
             </div>
+
+            <div class="product fl-shrink-0 pd-05 fl fl-nowrap br-all-sm">
+              <div class="product-name pd-r-1 mg-l-1 fl fl-column fl-wrap fl-j-between fl-shrink-1">
+                <div class="line-clamp-2">Price
+                <input className="input"
+                  type="text"
+                  name="price"
+                  placeholder="125"
+                  value={this.state.price}
+                  onChange={this.handleChange}>
+                </input>
+                </div>
+              </div>
+            </div>
+
+            <div class="product fl-shrink-0 pd-05 fl fl-nowrap br-all-sm">
+              <div class="product-name pd-r-1 mg-l-1 fl fl-column fl-wrap fl-j-between fl-shrink-1">
+                <div class="line-clamp-2">Discounted Price
+                <input className="input"
+                  type="text"
+                  name="discountedPrice"
+                  placeholder="99"
+                  value={this.state.discountedPrice}
+                  onChange={this.handleChange}>
+                </input>
+                </div>
+              </div>
+            </div>
+
+            <div class="product fl-shrink-0 pd-05 fl fl-nowrap br-all-sm">
+              <div class="product-name pd-r-1 mg-l-1 fl fl-column fl-wrap fl-j-between fl-shrink-1">
+                <div class="line-clamp-2">Rank Seq
+                <input className="input"
+                  type="text"
+                  name="rankSeq"
+                  placeholder="10"
+                  value={this.state.rankSeq}
+                  onChange={this.handleChange}>
+                </input>
+                </div>
+              </div>
+            </div>
+
+            <div class="product fl-shrink-0 pd-05 fl fl-nowrap br-all-sm">
+              <div class="product-name pd-r-1 mg-l-1 fl fl-column fl-wrap fl-j-between fl-shrink-1">
+                <div class="line-clamp-2">Long Description
+                <textArea className="input input-long"
+                  type="textArea"
+                  name="longDescription"
+                  placeholder="By combining potent natural ingredients, ancient rituals, and modern science, ACME creates products that perform with experiences that transform. Discovery drives innovation. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vulputate volutpat rhoncus arcu porttitor in."
+                  value={this.state.longDescription}
+                  onChange={this.handleChange}>
+                </textArea>
+                </div>
+              </div>
+            </div>
+
+            <img src={sample} />
+            <div class="line-clamp-2">Upload Small Image 512x512</div>
+            <label> </label>
+            <input type="file" name="imageUrl" class="upload required" accept="image/jpeg, image/png, jpg, jpeg, png"></input>
+
+            <img src={sampleLg} />
+            <div class="line-clamp-2">Upload Large Image 1290x1080</div>
+            <input type="file" name="imageLargeUrl" class="upload-btn__input required" accept="image/jpeg, image/png, jpg, jpeg, png"></input>
+            <input className="btn btn-success" type="submit" value="Add" ></input>
+          </form>
+        </div >
+      </div >
     );
   }
 }

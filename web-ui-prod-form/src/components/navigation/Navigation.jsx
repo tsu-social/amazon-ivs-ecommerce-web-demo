@@ -7,7 +7,7 @@ import React,  {useState } from 'react';
 import './Navigation.css';
 
 // Assets
-import logo from '../../assets/TSU-LOGO.jpg';
+import logo from '../../assets/TSU-LOGO.png';
 import user_logo from '../../assets/profile-pic@2x.png';
 import shopping_cart from '../../assets/shopping-icon.png';
 
@@ -21,7 +21,9 @@ const Navigation = () => {
   return (
     <div className="navigation grid grid--3">
       <div className="pd-l-2 fl-a-center">
-        <img src={logo} alt="logo" />
+       
+        <img className="mg-r-2 nav-logo" src={logo} alt="logo"/>
+        <h2>Dashboard</h2>
       </div>
       <div className="fl fl-a-center fl-j-center">
         <input className="nav-search__input rounded full-width pd-x-1" type="search" onChange={handleSearch} placeholder="Search products" name="search" autoComplete="off" value={search} />

@@ -12,21 +12,27 @@
 }
 
 .navigation {
-  height: 5.6rem;
+  height: 7rem;
 }
 
 .nav-avatar {
-  width: 2.4rem;
-  height: 2.4rem;
+  width: 4rem;
+  height: 4rem;
 }
 
 .nav-cart-icon {
-  width: 2.1rem;
-  height: 2.2rem;
+  width: 4rem;
+  height: 4rem;
+}
+
+.nav-logo {
+  width: 5rem;
+  height: 5rem;
 }
 
 .nav-search__input {
   height: 3.6rem;
+  width: 90rem;
   text-align: center;
   border:;
   background: var(--color-navbar-search);
