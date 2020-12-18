@@ -85,11 +85,11 @@ class ProductList extends Component {
         const { id, name, price, discountedPrice } = product;
         let { imageUrl } = product;
 
-        // if using mock data, refernce the images in the public folder
-        if (config.GET_PRODUCTS_API) {
-          imageUrl = `${process.env.PUBLIC_URL}/${imageUrl}`;
-          console.log(imageUrl);
-        }
+        // // if using mock data, refernce the images in the public folder
+        // if (config.USE_MOCK_DATA) {
+        //   imageUrl = `${process.env.PUBLIC_URL}/${imageUrl}`;
+        //   console.log(imageUrl);
+        // }
 
         const current = (currentProductId && currentProductId === id) ? 'product-current' : '';
         const onSale = (price !== discountedPrice) ? 'product-onsale' : '';

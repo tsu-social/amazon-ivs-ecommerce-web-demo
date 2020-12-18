@@ -12,8 +12,6 @@ import * as config from '../../config';
 import './SubmitProduct.css';
 
 // Mock data
-import { mockSubmitProduct } from '../../__test__/mocks/products2-mocks';
-
 class SubmitProduct extends Component {
   constructor(props) {
     super();
@@ -21,11 +19,19 @@ class SubmitProduct extends Component {
       products: [],
     }
   }
-
+ 
   componentDidMount() {
-    const { products } = mockSubmitProduct.data;
-    this.setState({ products });
-  }
+    if (config.PUT_PRODUCTS_API) {
+      const { products } = mockProductList.data;
+      this.setState({ products });
+    } else {
+      const url = config.PUT_PRODUCTS_API;
+      const options = {
+        method: 'GET',
+        headers: {
+          Accept: 'application/json',
+        },
+      };
 
   handleChange = (event) => {
     this.setState({

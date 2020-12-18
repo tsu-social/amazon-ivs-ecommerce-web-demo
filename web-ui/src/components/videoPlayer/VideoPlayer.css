@@ -13,7 +13,7 @@
   display: block;
   width: var(--video-width);
   height: fit-content;
-  background: black;
+  background: rgb(175, 170, 170);
   border-radius: var(--radius);
 }
 

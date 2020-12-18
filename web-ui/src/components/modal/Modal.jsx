@@ -35,9 +35,16 @@ const Modal = ({
     };
   }, []);
 
+  
   const handleModalOnClick = (e) => {
     e.preventDefault();
     e.stopPropagation();
+  }
+
+  const onClick = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    window.location.href="http://www.glossier.com";
   }
 
   const { id, name, price, discountedPrice, longDescription } = details[0];
@@ -59,7 +66,7 @@ const Modal = ({
           <div className="modal-product-name mg-b-1">{name}</div>
           <div className="modal-product-description mg-b-25">{longDescription}</div>
           <div className="modal-product-actions">
-            <button className="modal-product-buy-now btn btn--primary full-width">
+            <button className="modal-product-buy-now btn btn--primary full-width" onClick={onClick}>
               <span className="modal-product-buy-now__price mg-r-05">{`$${buyNowPrice}`}</span>
               <span>Buy Now</span>
             </button>

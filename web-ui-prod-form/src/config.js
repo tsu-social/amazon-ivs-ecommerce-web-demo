@@ -4,6 +4,8 @@
 // Enabling USE_MOCK_DATA will not require an eCommerce demo Backend (see serverless\README.md)
 export const USE_MOCK_DATA = false;
 
+export const PUT_PRODUCTS_API = "https://a3dzlwrnma.execute-api.us-east-1.amazonaws.com/Prod/";
+
 // API endpoint for retrieving the products list 
 //https://a3dzlwrnma.execute-api.us-east-1.amazonaws.com/Prod/ 
 export const GET_PRODUCTS_API = "https://a3dzlwrnma.execute-api.us-east-1.amazonaws.com/Prod/";

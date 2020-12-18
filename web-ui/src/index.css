@@ -42,7 +42,7 @@
   --color-bg-base: #1e2020;
   --color-bg-alt: #474849;
   --color-bg-alt-2: #353636;
-  --color-bg-inverted: #000;
+  --color-bg-inverted: rgb(0, 0, 0);
   --color-bg-primary:  var(--color--primary);
   --color-bg-secondary: var(--color--secondary);
   --color-bg-tertiary: var(--color--tertiary);
